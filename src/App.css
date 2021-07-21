@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.digimonImg {
+  width: 320px;
+  height: 320px;
+}
+
+div {
+  padding: 10px;
+  
+}
+
+button {
+  margin: 1px
+}
