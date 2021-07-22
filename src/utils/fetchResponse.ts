@@ -4,7 +4,7 @@ export function fetchResponse({
   route,
   setResponse,
 }: FetchResponseProps): void {
-  fetch(`http://localhost:4000${route}`)
+  fetch(`https://fast-meadow-42419.herokuapp.com${route}`)
     .then((res) => res.json())
     .then((json) => setResponse(json));
 }
