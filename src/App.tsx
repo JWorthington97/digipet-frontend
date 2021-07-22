@@ -3,7 +3,7 @@ import "./App.css";
 import { Digimon, IResponse } from "./utils/Types";
 import Action from "./components/Action";
 import DigipetStats from "./components/DigipetStats";
-import actions from './utils/actions.json'
+import actions from "./utils/actions.json";
 
 export const AllDigimonContext = createContext<Digimon[]>([]);
 
@@ -39,23 +39,22 @@ function App() {
       </div>
 
       <AllDigimonContext.Provider value={allDigimon}>
-
         <div>
-          {actions.map((action) => {                              
-          return (
-            <Action
-              action={action.action}
-              route={action.route}
-              setResponse={setResponse}
-              setDigimon={setDigimon}
-              digimon={digimon}
-            />
-          );
-        })}
-        </div>     
+          {actions.map((action) => {
+            return (
+              <Action
+                action={action.action}
+                route={action.route}
+                setResponse={setResponse}
+                setDigimon={setDigimon}
+                digimon={digimon}
+              />
+            );
+          })}
+        </div>
 
         <div>{response !== undefined && response.message}</div>
-        <DigipetStats response={response}/>
+        <DigipetStats response={response} />
       </AllDigimonContext.Provider>
     </>
   );

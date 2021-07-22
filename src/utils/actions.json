@@ -1,26 +1,26 @@
 [
-    {
-      "action": "Hatch",
-      "route": "/digipet/hatch"
-    },
-    {
-      "action": "Feed",
-      "route": "/digipet/feed"
-    },
-    {
-      "action": "Train",
-      "route": "/digipet/train"
-    },
-    {
-      "action": "Walk",
-      "route": "/digipet/walk"
-    },
-    {
-      "action": "Rehome",
-      "route": "/digipet/rehome"
-    },
-    {
-      "action": "Instructions",
-      "route": "/instructions"
-    }
-  ]
+  {
+    "action": "Hatch",
+    "route": "/digipet/hatch"
+  },
+  {
+    "action": "Feed",
+    "route": "/digipet/feed"
+  },
+  {
+    "action": "Train",
+    "route": "/digipet/train"
+  },
+  {
+    "action": "Walk",
+    "route": "/digipet/walk"
+  },
+  {
+    "action": "Rehome",
+    "route": "/digipet/rehome"
+  },
+  {
+    "action": "Instructions",
+    "route": "/instructions"
+  }
+]
